@@ -19,15 +19,21 @@
 	<script type="text/javascript">
 		if(!$.fn.popover){
 			console.log('No bootstrap');
+			document.write('<link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css">');
+			document.write('<script src="resources/bootstrap/js/bootstrap.bundle.min.js"><\/script>');
 			document.write('<script src="resources/bootstrap/js/bootstrap.min.js"><\/script>');
-			document.write('<link rel="stylesheet" href="resources/bootstrap/css/bootstrap.bundle.min.css"><\/script>');
-			document.write('<link rel="stylesheet" href="resources/bootstrap/css/bootstrap.esm.min.css"><\/script>');
-			document.write('<link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css"><\/script>');
 		}
 	</script>
-	<!-- local css -->
+	
+	<!-- local resources -->
+	<script src='resources/js/jquery-3.6.0.min.js'></script>
+
+	<script src="resources/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="resources/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/general.css">
 	<script type="text/javascript" src="resources/js/general.js"></script>
 	<script type="text/javascript" src="resources/js/bs-override.js"></script>
+
 </head>
 <body>
